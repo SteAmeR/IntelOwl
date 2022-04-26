@@ -191,6 +191,7 @@ The following is the list of the available analyzers you can run out-of-the-box.
 * `FileScan_Upload_File`: Upload your file to extract IoCs from executable files, documents and scripts via [FileScan.io API](https://www.filescan.io/api/docs).
 * `Dragonfly_Emulation`: Emulate malware against [Dragonfly](https://dragonfly.certego.net?utm_source=intelowl) sandbox by [Certego S.R.L](https://certego.net?utm_source=intelowl).
 * `Virushee_UploadFile`: Check file hash and upload file sample for analysis on [Virushee API](https://api.virushee.com/).
+* `DocGuard_Upload_File`: Analyze files in seconds. [DocGuard](https://www.docguard.io) Please register and use api-key to your privacy.
 
 ##### Observable analyzers (ip, domain, url, hash)
 * `VirusTotal_v3_Get_Observable`: search an observable in the VirusTotal DB
@@ -277,6 +278,7 @@ The following is the list of the available analyzers you can run out-of-the-box.
 * `FileScan_Search`: Finds reports and uploaded files by various tokens, like hash, filename, verdict, IOCs etc via [FileScan.io  API](https://www.filescan.io/api/docs).
 * `Virushee_CheckHash`: Search for a previous analysis of a file by its hash (SHA256/SHA1/MD5) on [Virushee API](https://api.virushee.com/).
 * `Anomali_Threatstream_PassiveDNS`: Return information from passive dns of Anomali. On [Anomali Threatstream](https://www.anomali.com/products/threatstream) PassiveDNS Api. 
+* `DocGuard_Get`: Check if an hash was analyzed on DocGuard. [DocGuard](https://www.docguard.io)
 
 
 ##### Generic analyzers (email, phone number, etc.; anything really)
